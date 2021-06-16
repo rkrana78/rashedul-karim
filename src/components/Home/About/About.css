@@ -1,0 +1,8 @@
+.about-container {
+    height: 100%;
+    padding: 60px 0;
+    padding-bottom: 200px; 
+}
+.about-container h2 {
+    color:  #25255F;
+}

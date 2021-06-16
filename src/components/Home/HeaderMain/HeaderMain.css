@@ -1,0 +1,18 @@
+.text-1 {
+    color: #5FF1D0;
+    font-size: 25px;
+}
+.text-2 {
+    font-size: 50px;
+}
+.text-3 {
+    color: #5FF1D0;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .img-container img {
+        height:300px;
+    }
+}
