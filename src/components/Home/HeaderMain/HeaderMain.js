@@ -8,12 +8,12 @@ const HeaderMain = () => {
     return (
         <main  className=" row d-flex align-items-center py-5" id="home">
 
-            <div className="col-md-5 offset-1">
+            <div className="col-md-5  intro-container">
                 <h4 className="text-1">Hello, I'm</h4>
                 <h2 className="text-2 text-white">Rashedul Karim</h2>
                 <h4 className="text-3 mb-4">
                     <Typical
-                        steps={["& I'm Web Developer", 1000, "& I'm React Developer", 2000, "& I'm MERN Stack Developer", 1000]}
+                        steps={["& I'm Web Developer", 2000, "& I'm React Developer", 2000, "& I'm MERN Stack Developer", 2000]}
                         loop={Infinity}
                         wrapper="p"
                     />

@@ -66,7 +66,7 @@ const Project = () => {
         <div  className="text-center pt-5 project-container bg-light" id="project">
             <h2 style={{color:  '#25255F'}}>My Works</h2>
            
-           <div class="row offset-1 p-5">
+           <div class="row offset-1 my-works p-5">
                 {
                     projectsData.map(project => <ProjectDetail project={project} key={project.title}></ProjectDetail>)
                 }

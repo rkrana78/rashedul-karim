@@ -10,9 +10,33 @@
     font-size: 30px;
 }
 
+.name-container {
+    margin-left: 10%;
+}
+
+#home {
+    width: 100%;
+}
+
+.intro-container {
+    margin-left: 10%;
+}
+
+
+
+
 
 @media only screen and (max-width: 768px) {
     .img-container img {
         height:300px;
+        margin-top: 15px;
     }
+    .text-2 {
+        width: 95%;
+    }
+    
+    .intro-container {
+        margin-left: 5%;
+    }
+    
 }

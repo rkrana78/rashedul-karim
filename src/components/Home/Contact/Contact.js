@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="contact-form" id="contact">
             <h2 className="text-center text-white">Get in Touch</h2>
             <form onSubmit={sendEmail}>
-                <div className="row d-flex justify-content-center my-5 py-5">
+                <div className="row d-flex justify-content-center message-container my-5 py-5">
                     <div class="ms-3 col-md-5">
                         <label for="name" className="form-label text-white">Name</label>
                         <input type="text" name="name" className="form-control w-75 " id="name" placeholder="Enter your name" />

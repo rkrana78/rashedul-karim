@@ -1,5 +1,15 @@
 .project-container {
     height: 100%;
-    
     padding: 100px 0;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .my-works {
+        width: 90%;
+        margin-left: 10px;
+    }
+ }
+ 

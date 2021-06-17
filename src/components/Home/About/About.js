@@ -3,9 +3,9 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="about-container  " id="about">
-            <div  className="row">
-                <div className="col-md-4 offset-1 mt-2 mb-3">
+        <div className="about-container" id="about">
+            <div  className="row ">
+                <div className="col-md-4 container mt-2 mb-3">
                     <h2>About Me</h2>
                     <hr />
                     <p>I'am Rashedul Karim & I am a Passionate Web Developer who Specializes in React.js. Currently, I have been working with modern technologies like JavaScript, React.js, Node.js, Express.js, MongoDB,WordPress.</p>
@@ -15,7 +15,7 @@ const About = () => {
                     <p><span style={{ color: '#25255F', fontWeight: 'bold'  }}>Phone</span>: +8801521485412</p>
                     <p><span style={{ color: '#25255F', fontWeight: 'bold'  }}>Address</span>: Chittagong, Bangladesh</p>
                 </div>
-                <div className="col-md-5 offset-1 mt-2">
+                <div className="col-md-5 container mt-2">
                     <h2>My Skills</h2>
                     <hr />
                     <h4>Programming & Web Technologies:</h4>
